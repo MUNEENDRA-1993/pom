@@ -8,12 +8,17 @@ public class Base {
 		 
 		 int x=add(25,35);
 		 System.out.println(x);
+		 int z=sum(45, 25);
+		 System.out.println(z);
 
 	}
 	
 	   public static int add(int a, int b) {
 		    return a+b;
 		   
+	   }
+	   public static int sum(int x, int y) {
+		   return x+y;
 	   }
 
 }
