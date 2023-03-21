@@ -7,6 +7,7 @@ public class Abc {
 		System.out.println("this is my abc class");
 		
 		compare("Testing","Test");
+		init_Browser();
 
 	}
 	
@@ -16,6 +17,10 @@ public class Abc {
 		}else {
 			System.out.println("both are not equal");
 		}
+	}
+	
+	public static void init_Browser() {
+		System.out.println("initiate chrome browser");
 	}
 
 }
